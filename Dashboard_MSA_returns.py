@@ -30,7 +30,7 @@ col1,col2 = st.columns([6, 5])
 # path = os.getcwd()
 # path_csv = path + "\\"
 
-# df_MSA_price = pd.read_csv(path_csv + "df_MSA_price.csv")
+# df_MSA_price = pd.read_csv(path_csv + "df_MSA_price.csv") 
 # df_SPY = pd.read_csv(path_csv + "df_SPY.csv")
 # df_SPY = df_SPY.drop('Unnamed: 0', axis=1)
 # df_SPY = df_SPY.rename({'index': 'Date', 'Close': 'Price'}, axis=1)  
