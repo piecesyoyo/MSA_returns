@@ -330,11 +330,13 @@ Total_gains = '${:,.0f}'.format(Total_gains)
 with col2:
     
     fig = px.treemap(df_merged, path=[px.Constant('<b>Where does the money come from?</b>'), 'Category'],
-                     values=df_merged.Dollar,
-                     color=df_merged.Category,
-                     # color_discrete_map=color_country,
-                     # hover_name=Label_per,
-                     )
+                      values=df_merged.Dollar,
+                      color=df_merged.Category,
+                      # color_discrete_map=color_country,
+                      # hover_name=Label_per,
+                      )
+    
+    
     
     fig.update_layout(
         font_family="Arial",
